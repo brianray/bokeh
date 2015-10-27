@@ -193,7 +193,7 @@ class SlidersApp(HBox):
         N = len(self.source.data['y'])
         TPR = self.point_source.data['y'][0]  # y axis sensitivity
         TNR = self.point_source.data['x'][0]  # x axis specificity
-        TP = TPR * P  # True Possitive
+        TP = TPR * P  # True Positive
         TN = TNR * N  # True Negative
         FP = P - TP
         FN = N - TN
