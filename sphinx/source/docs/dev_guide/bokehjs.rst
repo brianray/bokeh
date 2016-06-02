@@ -51,6 +51,17 @@ graph (similar to Chaco_).
 
 The full BokehJS interface is described detail in :doc:`../reference/bokehjs`
 
+Testing
+-------
+
+In the `bokehjs` subdirectory of the source checkout.
+
+.. code-block:: sh
+
+    gulp test
+
+
+
 .. _Chaco: http://code.enthought.com/chaco/
 .. _JSFiddle: http://jsfiddle.net/
 .. _Protovis: http://mbostock.github.io/protovis/
